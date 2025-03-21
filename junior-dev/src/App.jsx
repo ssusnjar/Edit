@@ -1,4 +1,5 @@
 import './App.css'
+import MoodController from "./components/MoodController" 
 
 function App(){
   const datum = new Date()
@@ -7,10 +8,7 @@ function App(){
  
   return (
   <div>
-  <p>Dobar dan React, danas je {datum.toString()}</p>
-  <p className='izracun'>
-  {a} plus {b} je {a + b}
-  </p>
+    <MoodController/>
   </div>
   )
  }
